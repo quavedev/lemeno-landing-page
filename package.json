@@ -1,0 +1,28 @@
+{
+  "name": "doisamigoseumariqueza",
+  "version": "1.0.0",
+  "scripts": {
+    "sync": "browser-sync start --server --files \"**/*\"",
+    "dev": "npx tailwindcss -i ./input.css -o ./output.css --watch",
+    "watch:dev": "nodemon -x npm run dev",
+    "watch": "run-p watch:dev sync",
+    "quave-eslint": "eslint . --fix",
+    "quave-prettier": "prettier --write \"**/*.js\"",
+    "quave-check": "npm run quave-eslint && npm run quave-prettier"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@quave/quave"
+    ]
+  },
+  "devDependencies": {
+    "@quave/eslint-config-quave": "^1.0.7",
+    "browser-sync": "^2.27.7",
+    "daisyui": "^2.13.6",
+    "nodemon": "^2.0.15",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.1.8",
+    "tailwindcss": "^3.0.23"
+  }
+}
