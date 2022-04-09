@@ -22,14 +22,8 @@
     <meta property="twitter:title" content="Lemeno" />
     <meta property="twitter:description" content="Lemeno" />
     <meta property="twitter:image:alt" content="Lemeno" />
-    <meta
-      property="og:image"
-      content="https://lemeno.com/logo.png"
-    />
-    <meta
-      property="twitter:image"
-      content="https://lemeno.com/logo.png"
-    />
+    <meta property="og:image" content="https://lemeno.com/logo.png" />
+    <meta property="twitter:image" content="https://lemeno.com/logo.png" />
     <meta property="og:url" content="https://lemeno.com/" />
     <meta property="twitter:url" content="https://lemeno.com/" />
 
@@ -43,119 +37,140 @@
     <link href="./output.css" rel="stylesheet" />
   </head>
 
-  <body class="flex flex-col overflow-scroll text-base text-base-content dark-background">
+  <body
+    class="dark-background flex flex-col overflow-scroll text-base text-base-content"
+  >
     <header
-      class="w-full items-center bg-transparent p-4 pb-20 text-base-content"
+      class="w-full items-center bg-transparent p-4 lg:pb-12 text-base-content"
       data-theme="dark"
     >
-      <div class="mx-auto flex max-w-6xl justify-between">
+      <div class="mx-auto flex max-w-6xl justify-around space-x-4 items-center lg:justify-between">
         <img src="logo-with-name.svg" class="h-8" />
-        <nav>
-          <a href="#Features" class="btn btn-ghost btn-xs font-normal">Features</a>
-          <a href="#Pricing" class="btn btn-ghost btn-xs font-normal">Pricing</a>
-          <a href="https://discord.gg/4NG2pzK2aY" target="_blank" class="btn btn-ghost btn-xs font-normal">Discord</a>
+        <nav class="hidden md:block">
+          <a href="#Features" class="btn btn-ghost btn-xs font-normal"
+            >Features</a
+          >
+          <a href="#Pricing" class="btn btn-ghost btn-xs font-normal"
+            >Pricing</a
+          >
+          <a
+            href="https://discord.gg/4NG2pzK2aY"
+            target="_blank"
+            class="btn btn-ghost btn-xs font-normal"
+            >Discord</a
+          >
         </nav>
-        <a href="https://app.lemeno.io/access" class="btn btn-primary btn-sm normal-case">Log In</a>
+        <a
+          href="https://app.lemeno.io/access"
+          class="btn btn-primary lg:btn-sm btn-xs normal-case"
+        >
+          Log In
+        </a>
       </div>
     </header>
 
     <main class="w-full">
       <!-- INTRO -->
       <div class="bg-transparent text-base-content" data-theme="dark">
-        <section>
-          <div class="col-span-3 col-start-1 space-y-20">
+        <section class="space-y-12">
+          <div class="lg:col-span-full">
             <div class="space-y-4">
-              <h2 class="text-5xl font-bold">We value your time</h2>
-              <p class="mb-4 text-xl font-light text-gray-400">
+              <h2 class="text-5xl font-bold text-center">We value your time</h2>
+              <p class="mb-4 text-xl font-light text-gray-400 text-center">
                 Spend less time on infinite feeds and give more attention to
                 moments that matter.
               </p>
             </div>
-            <!-- PITCH -->
-            <div
-              data-theme="light"
-              class="relative box-border flex w-full flex-col space-y-4 rounded-xl bg-white px-12 pt-10 pb-8"
-            >
-              <span
-                class="absolute -top-8 self-center rounded-xl bg-primary p-3"
-              >
-                <svg
-                  class="h-10 w-10 fill-current"
-                  height="100%"
-                  stroke-miterlimit="10"
-                  version="1.1"
-                  viewBox="0 0 409.629 423.757"
-                  width="100%"
-                  xml:space="preserve"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:vectornator="http://vectornator.io"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <path
-                    d="M395.899 180.538C395.899 180.538 395.899 180.438 395.799 180.438C392.699 173.638 386.999 169.038 380.399 167.138C375.599 165.838 370.499 165.938 365.499 167.738C355.199 171.538 345.399 172.938 336.699 170.538C328.699 168.338 321.799 162.838 316.199 152.838L280.699 89.4384C269.099 68.7384 252.899 52.3384 234.099 40.6384C224.399 34.6384 213.899 29.8384 203.099 26.4384C202.999 26.4384 202.999 26.4384 202.899 26.4384L164.999 161.038L126.599 150.238C117.599 147.738 108.199 152.938 105.699 161.938C103.199 170.938 108.399 180.338 117.399 182.838L169.599 197.538C179.999 200.438 190.699 194.438 193.599 184.038L224.599 74.0385C235.599 82.4385 244.899 93.0385 251.899 105.438L287.399 168.838C299.499 190.338 315.999 198.838 327.699 202.138C329.299 202.538 330.899 202.938 332.499 203.238L223.599 264.338L223.099 264.638L222.599 264.938L113.699 326.038C114.299 324.538 114.799 322.938 115.199 321.338C118.499 309.638 119.899 291.038 107.799 269.538L73.0991 207.738C59.5991 183.638 55.4991 155.138 62.8991 128.538C70.2991 102.138 87.4991 80.2385 111.399 66.7385C111.599 66.6385 111.799 66.5385 111.899 66.4385C112.099 66.3385 112.199 66.2385 112.399 66.1385C123.899 59.7385 136.299 55.6385 148.999 53.9385C155.399 53.0385 161.099 48.8385 163.099 42.6385C166.799 31.3385 157.799 19.9385 146.099 20.9385C134.299 21.9385 122.699 24.1385 112.399 27.6385L108.199 20.0385C100.099 5.63846 77.4991 8.73845 72.6991 24.2385L45.8991 85.9385L24.5991 133.938C22.4991 138.438 20.5991 143.038 19.0991 147.438L19.0991 147.538C18.2991 149.738 17.5991 151.838 16.9991 154.038C7.59915 187.338 10.9991 224.338 29.1991 256.938L64.7991 320.338C70.3991 330.238 71.3991 339.138 69.1991 347.038C66.7991 355.738 60.3991 363.338 51.7991 370.138C47.6991 373.438 44.8991 377.738 43.5991 382.538C41.6991 389.138 42.6991 396.438 46.8991 402.638C53.9991 413.138 68.2991 415.938 79.3991 409.738L146.199 372.238C149.699 376.738 154.099 380.638 159.399 383.638C174.099 392.038 192.399 390.638 206.799 381.638C216.499 375.638 221.799 367.738 224.699 359.438C224.699 359.438 224.699 359.338 224.799 359.138L240.699 319.138L370.699 246.238C376.199 243.138 380.199 238.238 382.199 232.738L395.999 198.338C398.199 192.638 398.399 186.238 395.899 180.538Z"
-                    fill="#1a1a1a"
-                    fill-rule="evenodd"
-                    opacity="1"
-                    stroke="none"
-                  />
-                </svg>
-              </span>
-              <h2 class="text-center text-2xl font-bold">
-                What's the pitch?
-              </h2>
-
-              <div
-                class="col-span-3 flex-shrink flex-grow basis-0 space-y-8 text-gray-400 text-normal font-normal"
-              >
-                <ul class="self-start space-y-4">
-                  <li>
-                    <img src="li-checkbox.svg" alt="" />
-                    <p>Tell us which content creators you really care about.</p>
-                  </li>
-                  <li>
-                    <img src="li-checkbox.svg" alt="" />
-                    <p>
-                      We <i>let you know</i> when there's anything new across all supported
-                      social medias via your email or in the app's timeline.
-                    </p>
-                  </li>
-                  <li>
-                    <img src="li-checkbox.svg" alt="" />
-                    <p>You save time that would be lost in infinite scrolling.</p>
-                  </li>
-                </ul>
-                <p>Cool, right? Sign In right now or check our demo video bellow!</p>
-              </div>
-              <a href="https://app.lemeno.io/access" class="btn btn-primary">Get Started</a>
-            </div>
           </div>
-
-          <div class="col-span-3 col-start-4 bg-transparent" data-theme="light">
+          <div
+            class="bg-transparent lg:col-span-3 lg:col-start-4 flex justify-center"
+            data-theme="light"
+          >
             <img src="illustration-01.svg" />
+          </div>
+          <!-- PITCH -->
+          <div
+            data-theme="light"
+            class="relative box-border lg:row-start-2 lg:col-span-3 flex w-full flex-col space-y-4 rounded-xl bg-white px-12 pt-10 pb-8"
+          >
+            <span
+              class="absolute -top-8 self-center rounded-xl bg-primary p-3"
+            >
+              <svg
+                class="h-10 w-10 fill-current"
+                height="100%"
+                stroke-miterlimit="10"
+                version="1.1"
+                viewBox="0 0 409.629 423.757"
+                width="100%"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:vectornator="http://vectornator.io"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <path
+                  d="M395.899 180.538C395.899 180.538 395.899 180.438 395.799 180.438C392.699 173.638 386.999 169.038 380.399 167.138C375.599 165.838 370.499 165.938 365.499 167.738C355.199 171.538 345.399 172.938 336.699 170.538C328.699 168.338 321.799 162.838 316.199 152.838L280.699 89.4384C269.099 68.7384 252.899 52.3384 234.099 40.6384C224.399 34.6384 213.899 29.8384 203.099 26.4384C202.999 26.4384 202.999 26.4384 202.899 26.4384L164.999 161.038L126.599 150.238C117.599 147.738 108.199 152.938 105.699 161.938C103.199 170.938 108.399 180.338 117.399 182.838L169.599 197.538C179.999 200.438 190.699 194.438 193.599 184.038L224.599 74.0385C235.599 82.4385 244.899 93.0385 251.899 105.438L287.399 168.838C299.499 190.338 315.999 198.838 327.699 202.138C329.299 202.538 330.899 202.938 332.499 203.238L223.599 264.338L223.099 264.638L222.599 264.938L113.699 326.038C114.299 324.538 114.799 322.938 115.199 321.338C118.499 309.638 119.899 291.038 107.799 269.538L73.0991 207.738C59.5991 183.638 55.4991 155.138 62.8991 128.538C70.2991 102.138 87.4991 80.2385 111.399 66.7385C111.599 66.6385 111.799 66.5385 111.899 66.4385C112.099 66.3385 112.199 66.2385 112.399 66.1385C123.899 59.7385 136.299 55.6385 148.999 53.9385C155.399 53.0385 161.099 48.8385 163.099 42.6385C166.799 31.3385 157.799 19.9385 146.099 20.9385C134.299 21.9385 122.699 24.1385 112.399 27.6385L108.199 20.0385C100.099 5.63846 77.4991 8.73845 72.6991 24.2385L45.8991 85.9385L24.5991 133.938C22.4991 138.438 20.5991 143.038 19.0991 147.438L19.0991 147.538C18.2991 149.738 17.5991 151.838 16.9991 154.038C7.59915 187.338 10.9991 224.338 29.1991 256.938L64.7991 320.338C70.3991 330.238 71.3991 339.138 69.1991 347.038C66.7991 355.738 60.3991 363.338 51.7991 370.138C47.6991 373.438 44.8991 377.738 43.5991 382.538C41.6991 389.138 42.6991 396.438 46.8991 402.638C53.9991 413.138 68.2991 415.938 79.3991 409.738L146.199 372.238C149.699 376.738 154.099 380.638 159.399 383.638C174.099 392.038 192.399 390.638 206.799 381.638C216.499 375.638 221.799 367.738 224.699 359.438C224.699 359.438 224.699 359.338 224.799 359.138L240.699 319.138L370.699 246.238C376.199 243.138 380.199 238.238 382.199 232.738L395.999 198.338C398.199 192.638 398.399 186.238 395.899 180.538Z"
+                  fill="#1a1a1a"
+                  fill-rule="evenodd"
+                  opacity="1"
+                  stroke="none"
+                />
+              </svg>
+            </span>
+            <h2 class="text-center text-2xl font-bold">What's the pitch?</h2>
+
+            <div
+              class="text-normal flex-shrink flex-grow basis-0 space-y-8 font-normal text-gray-400 lg:col-span-3"
+            >
+              <ul class="space-y-4 self-start">
+                <li>
+                  <img src="li-checkbox.svg" alt="" />
+                  <p>Tell us which content creators you really care about.</p>
+                </li>
+                <li>
+                  <img src="li-checkbox.svg" alt="" />
+                  <p>
+                    We <i>let you know</i> when there's anything new across
+                    all supported social medias via your email or in the app's
+                    timeline.
+                  </p>
+                </li>
+                <li>
+                  <img src="li-checkbox.svg" alt="" />
+                  <p>
+                    You save time that would be lost in infinite scrolling.
+                  </p>
+                </li>
+              </ul>
+              <p>
+                Cool, right? Sign In right now or check our demo video bellow!
+              </p>
+            </div>
+            <a href="https://app.lemeno.io/access" class="btn btn-primary">
+              Get Started
+            </a>
           </div>
         </section>
       </div>
 
       <!-- FEATURES -->
       <div data-theme="light" class="bg-white text-base-content">
-        <section id="Features" class="">
-          <div class="col-span-full flex space-x-12">
+        <section id="Features" class="space-y-4 place-items-center grid-cols-1">
+          <div class="flex items-stretch lg:space-x-12 space-x-2">
             <img
-              class="h-40 col-span-3 place-self-center"
+              class="lg:h-40 h-20 place-self-center"
               src="triangle-desk.svg"
               alt=""
             />
-            <h2
-              class="col-span-3 place-self-center text-center text-5xl font-bold"
-            >
+            <h2 class="place-self-center lg:text-5xl md:text-4xl text-3xl font-bold">
               What lemeno does for you
             </h2>
           </div>
           <div
-            class="col-span-full w-3/4 aspect-video overflow-auto shadow-lg rounded-xl"
+            class="aspect-video overflow-auto rounded-xl shadow-lg w-full"
           >
             <iframe
-              class="w-full h-full"
+              class="h-full w-full"
               src="https://www.youtube.com/embed/swuPNpsJWFw"
               title="YouTube video player"
               frameborder="0"
@@ -169,18 +184,20 @@
       <!-- PRICING -->
       <div class="bg-transparent" data-theme="dark">
         <section id="Pricing" class="bg-transparent">
-          <img class="col-span-3 basis-0" src="girl-pointing.svg" alt="" />
+          <img class="basis-0 lg:col-span-3" src="girl-pointing.svg" alt="" />
 
           <!-- HOW MUCH -->
-          <div class="col-span-3 flex items-center justify-center">
+          <div class="flex items-center justify-center lg:col-span-3">
             <div
-              class="graph-pattern-background flex h-[363px] w-[461px] flex-col items-center justify-center space-y-6 rounded-2xl bg-white p-12"
+              class="graph-pattern-background flex flex-col items-center justify-center space-y-6 rounded-2xl bg-white p-12 lg:h-[363px] lg:w-[461px]"
               data-theme="light"
             >
               <h3 class="text-3xl font-bold">How much, you ask?</h3>
               <span class="flex flex-col items-center">
                 <p class="text-xl text-gray-400">For you? Nothing!</p>
-                <p class="text-sm text-gray-400">The early adopters will have a free account, forever!</p>
+                <p class="text-sm text-gray-400">
+                  The early adopters will have a free account, forever!
+                </p>
               </span>
               <span class="flex flex-col items-center space-y-4 py-4">
                 <a
@@ -199,12 +216,17 @@
     <div class="bg-[#F7F8F9]" class="mt-auto" data-theme="light">
       <footer>
         <div
-          class="graph-pattern-footer col-span-full flex flex-col items-center justify-center space-y-12 p-14 text-xl font-normal text-gray-400"
+          class="graph-pattern-footer flex flex-col items-center justify-center space-y-12 p-4 md:p-14 text-xl font-normal text-gray-400 lg:col-span-full"
         >
           <img src="footer-logo.svg" alt="" />
           <p class="max-w-2xl text-center">
             We are building Lemeno with our community on
-            <a href="https://discord.gg/4NG2pzK2aY" target="_blank" class="font-bold text-primary">Discord</a>.<br />
+            <a
+              href="https://discord.gg/4NG2pzK2aY"
+              target="_blank"
+              class="font-bold text-primary"
+              >Discord</a
+            >.<br />
             Your contribution matters. Join us :-)
           </p>
           <p>© 2021 Flex. All rights reserved.</p>
