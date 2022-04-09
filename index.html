@@ -63,7 +63,7 @@
       <!-- INTRO -->
       <div class="bg-transparent text-base-content" data-theme="dark">
         <section>
-          <div class="col-span-3 col-start-1 space-y-24">
+          <div class="col-span-3 col-start-1 space-y-20">
             <div class="space-y-4">
               <h2 class="text-5xl font-bold">We value your time</h2>
               <p class="mb-4 text-xl font-light text-gray-400">
@@ -71,10 +71,10 @@
                 moments that matter.
               </p>
             </div>
-            <!-- SIGN IN FORM -->
+            <!-- PITCH -->
             <div
               data-theme="light"
-              class="relative box-border flex w-full flex-col space-y-4 rounded-xl bg-white px-24 pt-10 pb-8"
+              class="relative box-border flex w-full flex-col space-y-4 rounded-xl bg-white px-12 pt-10 pb-8"
             >
               <span
                 class="absolute -top-8 self-center rounded-xl bg-primary p-3"
@@ -101,11 +101,31 @@
                 </svg>
               </span>
               <h2 class="text-center text-2xl font-bold">
-                Join the lemeno community
+                What's the pitch?
               </h2>
-              <p class="text-gray-400"> 
-                We were tired of relying on manual scrolling and filtering through multiple social media apps to follow people we like. So we build an app that will just <i>let you know</i>.
-              </p>
+
+              <div
+                class="col-span-3 flex-shrink flex-grow basis-0 space-y-8 text-gray-400 text-normal font-normal"
+              >
+                <ul class="self-start space-y-4">
+                  <li>
+                    <img src="li-checkbox.svg" alt="" />
+                    <p>Tell us which content creators you really care about.</p>
+                  </li>
+                  <li>
+                    <img src="li-checkbox.svg" alt="" />
+                    <p>
+                      We <i>let you know</i> when there's anything new across all supported
+                      social medias via your email or in the app's timeline.
+                    </p>
+                  </li>
+                  <li>
+                    <img src="li-checkbox.svg" alt="" />
+                    <p>You save time that would be lost in infinite scrolling.</p>
+                  </li>
+                </ul>
+                <p>Cool, right? Sign In right now or check our demo video bellow!</p>
+              </div>
               <a href="https://app.lemeno.io/access" class="btn btn-primary">Get Started</a>
             </div>
           </div>
@@ -119,44 +139,23 @@
       <!-- FEATURES -->
       <div data-theme="light" class="bg-white text-base-content">
         <section id="Features" class="">
-          <img
-            class="col-span-full place-self-center pt-10 pb-2"
-            src="triangle-desk.svg"
-            alt=""
-          />
-          <h2
-            class="col-span-full place-self-center text-center text-4xl font-bold"
-          >
-            What lemeno does for you
-          </h2>
-          <div
-            class="col-span-3 flex-shrink flex-grow basis-0 space-y-12 text-gray-400 text-xl font-normal"
-          >
-            <ul class="self-start space-y-4">
-              <li>
-                <img src="li-checkbox.svg" alt="" />
-                <p>Track what you really care about</p>
-              </li>
-              <li>
-                <img src="li-checkbox.svg" alt="" />
-                <p>
-                  We let you know when there’s anything new across all supported
-                  social medias via your email or in the app’s timeline.
-                </p>
-              </li>
-              <li>
-                <img src="li-checkbox.svg" alt="" />
-                <p>You save time that would be lost in infinite scrolling</p>
-              </li>
-            </ul>
-            <p>Cool, right? Sign In right now or check our demo video!</p>
+          <div class="col-span-full flex space-x-12">
+            <img
+              class="h-40 col-span-3 place-self-center"
+              src="triangle-desk.svg"
+              alt=""
+            />
+            <h2
+              class="col-span-3 place-self-center text-center text-5xl font-bold"
+            >
+              What lemeno does for you
+            </h2>
           </div>
           <div
-            class="col-span-3 flex h-full flex-shrink flex-grow basis-0 justify-center"
+            class="col-span-full w-3/4 aspect-video overflow-auto shadow-lg rounded-xl"
           >
             <iframe
-              width="550"
-              height="320"
+              class="w-full h-full"
               src="https://www.youtube.com/embed/swuPNpsJWFw"
               title="YouTube video player"
               frameborder="0"
@@ -179,8 +178,10 @@
               data-theme="light"
             >
               <h3 class="text-3xl font-bold">How much, you ask?</h3>
-              <p class="text-xl text-gray-400">For you? Nothing!</p>
-              <p class="text-normal text-gray-400">The first 100 users will have a free account, forever!</p>
+              <span class="flex flex-col items-center">
+                <p class="text-xl text-gray-400">For you? Nothing!</p>
+                <p class="text-sm text-gray-400">The early adopters will have a free account, forever!</p>
+              </span>
               <span class="flex flex-col items-center space-y-4 py-4">
                 <a
                   class="btn btn-primary btn-lg font-normal"

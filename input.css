@@ -11,7 +11,7 @@ html {
 
 section,
 footer {
-  @apply mx-auto grid max-w-6xl grid-cols-6 gap-8 py-8;
+  @apply mx-auto grid max-w-6xl grid-cols-6 gap-8 py-8 place-items-center place-content-center justify-center;
 }
 
 .btn {
@@ -39,3 +39,5 @@ li {
     background-repeat: no-repeat;
     background-position: center; 
 }
+
+
