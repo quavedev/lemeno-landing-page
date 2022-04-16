@@ -41,10 +41,12 @@
     class="dark-background flex flex-col overflow-scroll text-base text-base-content"
   >
     <header
-      class="w-full items-center bg-transparent p-4 lg:pb-12 text-base-content"
+      class="w-full items-center bg-transparent p-4 text-base-content lg:pb-12"
       data-theme="dark"
     >
-      <div class="mx-auto flex max-w-6xl justify-around space-x-4 items-center lg:justify-between">
+      <div
+        class="mx-auto flex max-w-6xl items-center justify-around space-x-4 lg:justify-between"
+      >
         <a href="/">
           <img src="logo-with-name.svg" class="h-8 cursor-pointer" />
         </a>
@@ -64,7 +66,7 @@
         </nav>
         <a
           href="https://app.lemeno.io/access"
-          class="btn btn-primary lg:btn-sm btn-xs normal-case"
+          class="btn btn-primary btn-xs normal-case lg:btn-sm"
         >
           Log In
         </a>
@@ -77,14 +79,16 @@
         <section class="space-y-12">
           <div class="lg:col-span-full">
             <div class="space-y-4">
-              <h2 class="text-5xl font-bold text-center">Obsessively Scrolling <span class="text-primary">Twitter</span>?</h2>
-              <p class="mb-4 text-xl font-light text-gray-400 text-center">
-                Be notified about what you really care effortlessly.
+              <h2 class="text-center text-5xl font-bold">
+                Obsessively Scrolling <span class="text-primary">Twitter</span>?
+              </h2>
+              <p class="mb-4 text-center text-xl font-light text-gray-400">
+                Be notified about what you really care effortlessly
               </p>
             </div>
           </div>
           <div
-            class="bg-transparent lg:col-span-3 lg:col-start-4 flex justify-center"
+            class="flex justify-center bg-transparent lg:col-span-3 lg:col-start-4"
             data-theme="light"
           >
             <img src="girl-pointing.svg" />
@@ -92,11 +96,9 @@
           <!-- PITCH -->
           <div
             data-theme="light"
-            class="relative box-border lg:row-start-2 lg:col-span-3 flex w-full flex-col space-y-4 rounded-xl bg-white px-12 pt-10 pb-8"
+            class="relative box-border flex w-full flex-col space-y-10 rounded-xl bg-white px-12 pt-10 pb-8 lg:col-span-3 lg:row-start-2"
           >
-            <span
-              class="absolute -top-8 self-center rounded-xl bg-primary p-3"
-            >
+            <span class="absolute -top-8 self-center rounded-xl bg-primary p-3">
               <svg
                 class="h-10 w-10 fill-current"
                 height="100%"
@@ -118,54 +120,52 @@
                 />
               </svg>
             </span>
-            <h2 class="text-center text-2xl font-bold">What's the pitch?</h2>
 
-            <div
-              class="text-normal flex-shrink flex-grow basis-0 space-y-8 font-normal text-gray-400 lg:col-span-3"
-            >
-              <ul class="space-y-4 self-start">
-                <li>
-                  <img src="li-checkbox.svg" alt="" />
-                  <p>Tell us which content creators you really care about.</p>
-                </li>
-                <li>
-                  <img src="li-checkbox.svg" alt="" />
-                  <p>
-                    We <i>let you know</i> when there's anything new.
-                  </p>
-                </li>
-                <li>
-                  <img src="li-checkbox.svg" alt="" />
-                  <p>
-                    You save time that would be lost in infinite scrolling.
-                  </p>
-                </li>
-              </ul>
-                </div>
+            <div class="space-y-4">
+              <h2 class="text-center text-2xl font-bold">What's the pitch?</h2>
+              <div
+                class="text-normal flex-shrink flex-grow basis-0 space-y-8 font-normal text-gray-400 lg:col-span-3"
+              >
+                <ul class="space-y-4 self-start">
+                  <li>
+                    <img src="li-checkbox.svg" alt="" />
+                    <p>Tell us which content creators you really care about.</p>
+                  </li>
+                  <li>
+                    <img src="li-checkbox.svg" alt="" />
+                    <p>We <i>let you know</i> when there's anything new.</p>
+                  </li>
+                  <li>
+                    <img src="li-checkbox.svg" alt="" />
+                    <p>You save time that would be lost in infinite scrolling.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
 
             <!-- HOW MUCH -->
             <div class="flex items-center justify-center lg:col-span-3">
               <div
-                      class="graph-pattern-background flex flex-col items-center justify-center space-y-6 rounded-2xl bg-white p-4 lg:h-[363px] lg:w-[461px]"
-                      data-theme="light"
+                class="graph-pattern-background flex flex-col items-center justify-center rounded-2xl bg-white"
+                data-theme="light"
               >
-
-                <h2 class="text-center text-2xl font-bold">How much, you ask?</h2>
+                <h2 class="text-center text-2xl font-bold">
+                  How much, you ask?
+                </h2>
                 <span class="flex flex-col items-center">
-
-                <p class="text-sm text-gray-400">
-                  The early adopters will have a free account, forever!
-                </p>
-              </span>
-                <span class="flex flex-col items-center space-y-4">
-                <a
-                        class="btn btn-primary btn-lg font-normal"
-                        href="https://app.lemeno.io"
-                >
-                  Get Started
-                </a>
-                <img src="sketch-horizontal-lines.svg" alt="" />
-              </span>
+                  <p class="text-sm text-gray-400">
+                    The early adopters will have a free account, forever!
+                  </p>
+                </span>
+                <span class="flex flex-col items-center space-y-4 mt-6">
+                  <a
+                    class="btn btn-primary btn-lg font-normal"
+                    href="https://app.lemeno.io"
+                  >
+                    Get started for free
+                  </a>
+                  <img src="sketch-horizontal-lines.svg" alt="" />
+                </span>
               </div>
             </div>
           </div>
@@ -173,23 +173,23 @@
       </div>
       <!-- FEATURES -->
       <div data-theme="light" class="bg-white text-base-content">
-        <section id="Features" class="space-y-4 place-items-center grid-cols-1">
-          <div class="flex items-stretch lg:space-x-12 space-x-2">
+        <section id="Features" class="grid-cols-1 place-items-center space-y-4">
+          <div class="flex items-stretch space-x-2 lg:space-x-12">
             <img
-              class="lg:h-40 h-20 place-self-center"
+              class="h-20 place-self-center lg:h-40"
               src="triangle-desk.svg"
               alt=""
             />
-            <h2 class="place-self-center lg:text-5xl md:text-4xl text-3xl font-bold">
+            <h2
+              class="place-self-center text-3xl font-bold md:text-4xl lg:text-5xl"
+            >
               How it works
             </h2>
           </div>
-          <div
-            class="aspect-video overflow-auto rounded-xl shadow-lg w-full"
-          >
+          <div class="aspect-video w-full overflow-auto rounded-xl shadow-lg">
             <iframe
               class="h-full w-full"
-              src="https://www.youtube.com/embed/swuPNpsJWFw"
+              src="https://www.youtube.com/embed/AhGCNvCmo7Y"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -198,12 +198,11 @@
           </div>
         </section>
       </div>
-
     </main>
     <div class="bg-[#F7F8F9]" class="mt-auto" data-theme="light">
       <footer>
         <div
-          class="graph-pattern-footer flex flex-col items-center justify-center space-y-4 p-4 md:p-14 text-sm font-normal text-gray-400 lg:col-span-full"
+          class="graph-pattern-footer flex flex-col items-center justify-center space-y-4 p-4 text-sm font-normal text-gray-400 md:p-14 lg:col-span-full"
         >
           <img src="footer-logo.svg" alt="" />
           <p class="max-w-2xl text-center">
